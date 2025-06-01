@@ -5,6 +5,7 @@ layout: home
 hero:
   name: "計算物理春の学校"
   text: "2026"
+  tagline: 会場：沖縄県市町村自治会館<br>期間：2026年3月9日(月)〜13日(金)
   actions:
     - theme: brand
       text: Markdown Examples
