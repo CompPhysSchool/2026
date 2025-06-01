@@ -141,12 +141,11 @@
 }
 
 /* Hero section styling */
-/* 画像を引き伸ばす際に追加 */
 .hero-section {
   position: relative;
   width: 100%;
   height: 400px; /* 必要に応じて高さを調整 */
-  background-image: url('/sample_image.jpg'); /* 画像パスを指定 */
+  background-image: url('/sample_image.jpg'); /* 画像パスを確認してください */
   background-size: cover;
   background-position: center;
   display: flex;
