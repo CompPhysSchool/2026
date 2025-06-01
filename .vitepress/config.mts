@@ -10,6 +10,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'About us', 
+        items: [
+          {text: 'About us', link: '/about' },
+          { text: 'News', link: '/news' },
+        ]
+      },
+      { text: 'Application', link: '/application' },
+      { text: 'Contact', link: '/contact'},
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -20,11 +28,29 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+      { 
+        text: 'About us',
+        items: [
+          { text: '計算物理 春の学校とは', link: '/about' },
+          { text: 'News', link: '/news' }
+        ]
+      },
+      {
+        text: 'Contact',
+        items: [
+          { text: 'お申し込み', link: '/application' },
+          { text: 'お問い合わせ', link: '/contact' }
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CompPhysSchool/2026' }
-    ]
+      { icon: 'twitter', link: 'https://x.com/compphysschool' }
+    ],
+
+    footer: {
+      copyright: '計算物理 春の学校2026',
+    },
   }
 })
