@@ -10,34 +10,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: '参加申し込み', link: '/application' },
-      { text: 'お問い合わせ', link: '/contact'},
-      { text: '過去の様子', items: [
-          { text: '2025年度', link: 'https://compphysschool.github.io/homepage2025/index.html' },
-          { text: '2024年度', link: 'https://compphysspringschool2024.github.io/homepage2024/'},
-          { text: '2023年度', link: 'https://hohno0223.github.io/comp_phys_spring_school2023/'}
-
-      ]}
+      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
-      { text: 'Home', link: '/' },
-      { text: '参加申し込み', link: '/application' },
-      { text: 'お問い合わせ', link: '/contact'},
-      { text: '過去の様子', items: [
-          { text: '2025年度', link: 'https://compphysschool.github.io/homepage2025/index.html' },
-          { text: '2024年度', link: 'https://compphysspringschool2024.github.io/homepage2024/'},
-          { text: '2023年度', link: 'https://hohno0223.github.io/comp_phys_spring_school2023/'}
-
-      ]}
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      }
     ],
 
     socialLinks: [
-      { icon: 'twitter', link: 'https://x.com/compphysschool' }
-    ],
-
-    footer: {
-      copyright: '計算物理 春の学校2026',
-    },
+      { icon: 'github', link: 'https://github.com/CompPhysSchool/2026' }
+    ]
   }
 })

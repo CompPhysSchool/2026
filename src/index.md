@@ -8,21 +8,19 @@ hero:
   tagline: 会場：沖縄県市町村自治会館<br>期間：2026年3月9日(月)〜13日(金)
   actions:
     - theme: brand
-      text: 参加申し込み
-      link: /application
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: お問い合せ
-      link: /contact
+      text: API Examples
+      link: /api-examples
 
 features:
-  - title: 講義
-    details: 大学院生や若手研究者を主な対象とし、計算物理に関する基礎から最先端技術、その応用まで幅広いトピックを取り上げます。
-  - title: ポスターセッション
-    details: ポスターセッションでは発表希望者がポスターを用いて自身の研究について発表します。自分に近い分野の発表を聞くもよし、あまりなじみのない分野の知見を仕入れるもよしの流動性の高い企画です。
-  - title: グループセミナー
-    details: 4人程度の参加者が集まって1グループを作り、グループ内で自身の研究や興味を持っている話題について発表し合う企画です。1人あたり20～30分程度、スライドを見せながら話すことを想定しています。
-
-
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 ## 開催目的
