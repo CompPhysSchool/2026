@@ -8,11 +8,11 @@ hero:
   tagline: 会場：沖縄県市町村自治会館<br>期間：2026年3月9日(月)〜13日(金)
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 参加申し込み
+      link: /application
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: お問い合せ
+      link: /contact
 
 features:
   - title: 講義
