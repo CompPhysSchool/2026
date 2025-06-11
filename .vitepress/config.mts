@@ -33,11 +33,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'twitter', link: 'https://x.com/compphysschool' }
+      { icon: 'x', link: 'https://x.com/compphysschool' },
+      { icon: 'github', link: 'https://github.com/CompPhysSchool/2026' }
     ],
 
     footer: {
-      copyright: '計算物理 春の学校2026',
+      copyright: '© 2026 Spring School on Computational Physics',
     },
   }
 })
