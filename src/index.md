@@ -12,7 +12,7 @@ hero:
       link: /application
     - theme: alt
       text: お問い合せ
-      link: /contact
+      link: https://forms.gle/bgMe27Dwzry9ARBP7
 
 features:
   - title: 講義
