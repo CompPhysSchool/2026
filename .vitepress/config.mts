@@ -1,3 +1,4 @@
+import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
@@ -37,5 +38,20 @@ export default defineConfig({
     footer: {
       copyright: '© 2026 Spring School on Computational Physics',
     },
-  }
+  },
+
+  // https://vitepress.dev/guide/extending-default-theme#overriding-internal-components
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPHero\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/VPHero.vue', import.meta.url)
+          )
+        }
+      ]
+    }
+  },
+
 })
