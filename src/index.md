@@ -11,8 +11,8 @@ hero:
       text: 参加申し込み
       link: /application
     - theme: alt
-      text: お問い合せ
-      link: /contact
+      text: お問い合わせ
+      link: https://forms.gle/bgMe27Dwzry9ARBP7
 
 features:
   - title: 講義
@@ -39,4 +39,4 @@ features:
 
 ### 管理・監督
 
-大久保 毅 (東京大学)、大野 浩史 (筑波大学)、品岡 寛 (埼玉大学)、 下川 統久朗 (OIST)、富谷 昭夫 (東京女子大学)、永井 佑紀 (東京大学)、水上 渉 (大阪大学)
+大久保 毅 (東京大学)、大野 浩史 (筑波大学)、品岡 寛 (埼玉大学)、下川 統久朗 (OIST)、富谷 昭夫 (東京女子大学)、永井 佑紀 (東京大学)、水上 渉 (大阪大学)
