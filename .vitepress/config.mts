@@ -26,7 +26,6 @@ export default defineConfig({
       { text: 'お問い合わせ', link: '/contact'},
       { text: '協賛', items: [
         { text: '協賛のお願い', link: '/about-sponsorship'},
-        { text: '協賛一覧'}
       ]},
       { text: '過去の様子', items: [
           { text: '2025年度', link: 'https://compphysschool.github.io/homepage2025/index.html' },
