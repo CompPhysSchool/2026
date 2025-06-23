@@ -14,18 +14,17 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '参加申し込み', link: '/application' },
-      { text: 'お問い合わせ', link: 'https://forms.gle/bgMe27Dwzry9ARBP7'},
       { text: '協賛', link: '/about-sponsorship'},
       { text: '過去の様子', items: [
           { text: '2025年度', link: 'https://compphysschool.github.io/homepage2025/index.html'},
           { text: '2024年度', link: 'https://compphysspringschool2024.github.io/homepage2024/'},
           { text: '2023年度', link: 'https://hohno0223.github.io/comp_phys_spring_school2023/'}
       ]},
+      { text: 'お問い合わせ', link: 'https://forms.gle/bgMe27Dwzry9ARBP7'},
     ],
     sidebar: [
       { text: 'Home', link: '/' },
       { text: '参加申し込み', link: '/application' },
-      { text: 'お問い合わせ', link: 'https://forms.gle/bgMe27Dwzry9ARBP7'},
       { text: '協賛', items: [
         { text: '協賛のお願い', link: '/about-sponsorship'},
       ]},
@@ -34,6 +33,7 @@ export default defineConfig({
           { text: '2024年度', link: 'https://compphysspringschool2024.github.io/homepage2024/'},
           { text: '2023年度', link: 'https://hohno0223.github.io/comp_phys_spring_school2023/'}
       ]},
+      { text: 'お問い合わせ', link: 'https://forms.gle/bgMe27Dwzry9ARBP7'},
     ],
     socialLinks: [
       { icon: 'x', link: 'https://x.com/compphysschool' },
