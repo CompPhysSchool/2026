@@ -53,7 +53,14 @@ export default defineConfig({
           replacement: fileURLToPath(
             new URL('./theme/components/VPHome.vue', import.meta.url)
           )
+        },
+        {
+          find: /^.*\/VPNavBarHamburger\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/VPNavBarHamburger.vue', import.meta.url)
+          )
         }
+
       ]
     }
   },
