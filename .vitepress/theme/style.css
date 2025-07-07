@@ -201,13 +201,13 @@
 .VPNavBar.home.top .VPLink.link.vp-external-link-icon.VPNavBarMenuLink::after,
 .VPNavBar.home.top .vpi-more-horizontal.icon,
 .VPNavBar.home.top .VPNavBarHamburger.hamburger {
-  color: var(--vp-c-gray-1);
+  color: var(--vp-c-gray-2);
 }
 
 @media (min-width: 1280px) {
   .VPNavBar.home.top .VPSocialLinks .VPNavBarSocialLinks .social-links,
   .VPNavBar.home.top .VPSocialLink {
-    color: var(--vp-c-gray-1);
+    color: var(--vp-c-gray-2);
   }
 }
 
