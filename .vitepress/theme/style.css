@@ -125,3 +125,125 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * Hero Area
+ * -------------------------------------------------------------------------- */
+
+.home-hero-background {
+  background-image: url("./images/hero.jpg"); /* https://www.photo-ac.com/main/detail/27752540 */
+  background-size: cover;
+  background-position: left 80%;
+  padding-bottom: 48px;
+  margin-bottom: -48px;
+}
+
+.dark .home-hero-background::before{
+  background-color: rgba(0,0,0,0.2);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+@media (min-width: 1080px) {
+  :root {
+    --vp-home-hero-name-background: #3451b2;
+    /* --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #007CDC, #058BB3, #3451b2); */
+  }
+  .VPHero.VPHomeHero .heading {
+    color: var(--vp-c-text-1);
+  }
+  .VPHero.VPHomeHero .tagline {
+    color: var(--vp-c-text-2);
+  }
+}
+
+@media (max-width: 1080px) {
+  :root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #7AD3EC, #C0ECE1);
+  }
+  .VPHero.VPHomeHero .heading {
+    color: var(--vp-c-gray-1);
+  }
+  .VPHero.VPHomeHero .tagline {
+    color: var(--vp-c-gray-2);
+  }
+}
+
+@media (min-width: 1080px) {
+  .dark:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #7AD3EC, #C0ECE1);
+  }
+}
+
+.dark .VPHero.VPHomeHero .heading span.name.clip,
+.dark .VPHero.VPHomeHero .heading,
+.dark .VPHero.VPHomeHero .tagline {
+  color: var(--vp-c-text-1);
+}
+
+.home-hero-background .VPFeature {
+  background-color: rgba(246, 246, 247, 0.93);
+}
+
+.dark .home-hero-background .VPFeature {
+  background-color: rgba(27, 27, 31, 0.93);
+}
+
+.VPNavBar.home.top .title,
+.VPNavBar.home.top .VPLink.link.VPNavBarMenuLink ,
+.VPNavBar.home.top .VPFlyout .button .text,
+.VPNavBar.home.top .VPLink.link.vp-external-link-icon.VPNavBarMenuLink::after,
+.VPNavBar.home.top .vpi-more-horizontal.icon,
+.VPNavBar.home.top .VPNavBarHamburger.hamburger {
+  color: var(--vp-c-gray-2);
+}
+
+@media (min-width: 1280px) {
+  .VPNavBar.home.top .VPSocialLinks .VPNavBarSocialLinks .social-links,
+  .VPNavBar.home.top .VPSocialLink {
+    color: var(--vp-c-gray-2);
+  }
+}
+
+.dark .VPNavBar.home.top .title,
+.dark .VPNavBar.home.top .VPLink.link.VPNavBarMenuLink ,
+.dark .VPNavBar.home.top .VPFlyout .button .text,
+.dark .VPNavBar.home.top .VPLink.link.vp-external-link-icon.VPNavBarMenuLink::after,
+.dark .VPNavBar.home.top .vpi-more-horizontal.icon,
+.dark .VPNavBar.home.top .VPNavBarHamburger.hamburger,
+.dark .VPNavBar.home.top .VPSocialLinks .VPNavBarSocialLinks .social-links,
+.dark .VPNavBar.home.top .VPSocialLink {
+  color: #dfdfd6;
+}
+
+.VPNavBar.home.top.screen-open .title,
+.VPNavBar.home.top.screen-open .VPLink.link.VPNavBarMenuLink ,
+.VPNavBar.home.top.screen-open .VPFlyout .button .text,
+.VPNavBar.home.top.screen-open .VPLink.link.vp-external-link-icon.VPNavBarMenuLink::after,
+.VPNavBar.home.top.screen-open .vpi-more-horizontal.icon,
+.VPNavBar.home.top.screen-open .VPNavBarHamburger.hamburger,
+.VPNavBar.home.top.screen-open .VPSocialLinks .VPNavBarSocialLinks .social-links,
+.VPNavBar.home.top.screen-open .VPSocialLink {
+  color: var(--vp-c-text-1);
+}
+
+.VPNavBar.home.top .VPNavBarAppearance::before,
+.VPNavBar.home.top .VPSocialLinks.VPNavBarSocialLinks.social-links::before {
+  background-color: #dfdfd6;
+}
+
+.dark .VPNavBar.home.top .VPNavBarAppearance::before,
+.dark .VPNavBar.home.top .VPSocialLinks.VPNavBarSocialLinks.social-links::before {
+  background-color: #dfdfd6;
+}
+
+.VPNavBar.home.top.screen-open .VPNavBarAppearance::before,
+.VPNavBar.home.top.screen-open .VPSocialLinks.VPNavBarSocialLinks.social-links::before {
+  color: red;
+}
