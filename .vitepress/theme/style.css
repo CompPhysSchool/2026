@@ -162,9 +162,10 @@
   }
   /* index.htmlのhero内のtaglineについて */
   .VPHero.VPHomeHero .tagline {
-    color: var(--vp-c-gray-2); /* テキスト色 */
-    /* フォント変更 */
-    font-weight: bold;
+    /* テキスト色 */
+    color: var(--vp-c-gray-2);
+    /* フォントの太さを変更 */
+    /* font-weight: bold; */
     /* フォントを変えたい際にはfont-familyで指定 */
   }
 }
@@ -183,9 +184,10 @@
   }
   /* index.htmlのhero内のtaglineについて */
   .VPHero.VPHomeHero .tagline {
-    color: var(--vp-c-gray-2); /* テキスト色 */
-    /* フォント変更 */
-    font-weight: bold;
+    /* テキスト色 */
+    color: var(--vp-c-gray-2);
+    /* フォントの太さを変更 */
+    /* font-weight: bold; */
     /* フォントを変えたい際にはfont-familyで指定 */
   }
 }
@@ -210,7 +212,6 @@
   background-color: rgba(246, 246, 247, 0.93);
 }
 
-
 /* ダークモードの時のfeaturesの背景 */
 .dark .home-hero-background .VPFeature {
   background-color: rgba(27, 27, 31, 0.93);
@@ -224,6 +225,8 @@
 .VPNavBar.home.top .VPNavBarHamburger.hamburger {
   /* ライトモードの上部メニューの色 */
   color: var(--vp-c-gray-2);
+  /* fontの太さ */
+  /* font-weight: bold; */
 }
 
 /* 横幅が1080px未満の時 */
