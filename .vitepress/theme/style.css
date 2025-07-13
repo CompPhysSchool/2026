@@ -91,6 +91,7 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  /* 「参加申し込み」ボタンの背景色 */
   --vp-home-hero-name-background: #3451b2;
 }
 
@@ -147,33 +148,51 @@
   content: ' ';
 }
 
+/* 横幅が1080px以上の時 */
 @media (min-width: 1080px) {
   :root {
+    /* index.mdのheroのnameのテキスト色 */
     --vp-home-hero-name-background: #3451b2;
     /* --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #007CDC, #058BB3, #3451b2); */
   }
+  /* index.htmlのhero内のtextの色 */
   .VPHero.VPHomeHero .heading {
     color: var(--vp-c-text-1);
   }
+  /* index.htmlのhero内のtaglineについて */
   .VPHero.VPHomeHero .tagline {
+    /* テキスト色 */
     color: var(--vp-c-text-2);
+    /* フォントの太さを変更 */
+    /* font-weight: bold; */
+    /* フォントを変えたい際にはfont-familyで指定 */
   }
 }
 
+/* 横幅が1080px未満の時 */
 @media (max-width: 1080px) {
   :root {
+    /* index.mdのheroのnameのテキスト色 */
     --vp-home-hero-name-color: transparent;
+    /* transparentのとき、背景色を透過 */
     --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #7AD3EC, #C0ECE1);
   }
+  /* index.htmlのhero内のtextの色 */
   .VPHero.VPHomeHero .heading {
     color: var(--vp-c-gray-1);
   }
+  /* index.htmlのhero内のtaglineについて */
   .VPHero.VPHomeHero .tagline {
+    /* テキスト色 */
     color: var(--vp-c-gray-2);
+    /* フォントの太さを変更 */
+    /* font-weight: bold; */
+    /* フォントを変えたい際にはfont-familyで指定 */
   }
 }
 
+/* 横幅が1080px以上の時 */
 @media (min-width: 1080px) {
   .dark:root {
     --vp-home-hero-name-color: transparent;
@@ -181,16 +200,19 @@
   }
 }
 
+/* ダークモードの時のtext, taglineの色を一括で変更 */
 .dark .VPHero.VPHomeHero .heading span.name.clip,
 .dark .VPHero.VPHomeHero .heading,
 .dark .VPHero.VPHomeHero .tagline {
   color: var(--vp-c-text-1);
 }
 
+/* ライトモードの時のfeaturesの背景 */
 .home-hero-background .VPFeature {
   background-color: rgba(246, 246, 247, 0.93);
 }
 
+/* ダークモードの時のfeaturesの背景 */
 .dark .home-hero-background .VPFeature {
   background-color: rgba(27, 27, 31, 0.93);
 }
@@ -201,9 +223,13 @@
 .VPNavBar.home.top .VPLink.link.vp-external-link-icon.VPNavBarMenuLink::after,
 .VPNavBar.home.top .vpi-more-horizontal.icon,
 .VPNavBar.home.top .VPNavBarHamburger.hamburger {
+  /* ライトモードの上部メニューの色 */
   color: var(--vp-c-gray-2);
+  /* fontの太さ */
+  /* font-weight: bold; */
 }
 
+/* 横幅が1080px未満の時 */
 @media (min-width: 1280px) {
   .VPNavBar.home.top .VPSocialLinks .VPNavBarSocialLinks .social-links,
   .VPNavBar.home.top .VPSocialLink {
@@ -219,6 +245,7 @@
 .dark .VPNavBar.home.top .VPNavBarHamburger.hamburger,
 .dark .VPNavBar.home.top .VPSocialLinks .VPNavBarSocialLinks .social-links,
 .dark .VPNavBar.home.top .VPSocialLink {
+  /* ダークモードの上部メニューの色 */
   color: #dfdfd6;
 }
 
