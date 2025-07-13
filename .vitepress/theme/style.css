@@ -185,7 +185,7 @@
   /* index.htmlのhero内のtaglineについて */
   .VPHero.VPHomeHero .tagline {
     /* テキスト色 */
-    color: var(--vp-c-grey-2);
+    color: var(--vp-c-gray-2);
     /* フォントの太さを変更 */
     /* font-weight: bold; */
     /* フォントを変えたい際にはfont-familyで指定 */
