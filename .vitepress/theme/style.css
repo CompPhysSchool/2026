@@ -156,6 +156,35 @@
     /* --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #007CDC, #058BB3, #3451b2); */
   }
+
+  /* タイトル部分の背景色をつけるための設定 */
+  .VPHero.VPHomeHero {
+    position: relative;
+    background: none;
+  }
+  .VPHero.VPHomeHero::before {
+    content: "";
+    position: absolute;
+    top: 100px;      /* 上の余白 */
+    width: 52%;
+    
+    margin-left: -2%;
+    /* transform: translateX(-20%); */
+    bottom: 16px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 16px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .dark .VPHero.VPHomeHero::before {
+    background: rgba(0,0,0,0.5);
+  }
+  .VPHero.VPHomeHero > * {
+    position: relative;
+    z-index: 1;
+  }
+
   /* index.htmlのhero内のtextの色 */
   .VPHero.VPHomeHero .heading {
     color: var(--vp-c-text-1);
@@ -165,7 +194,7 @@
     /* テキスト色 */
     color: var(--vp-c-text-2);
     /* フォントの太さを変更 */
-    /* font-weight: bold; */
+    font-weight: bold;
     /* フォントを変えたい際にはfont-familyで指定 */
   }
 }
@@ -176,18 +205,46 @@
     /* index.mdのheroのnameのテキスト色 */
     --vp-home-hero-name-color: transparent;
     /* transparentのとき、背景色を透過 */
-    --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #7AD3EC, #C0ECE1);
+    --vp-home-hero-name-background: var(--vp-c-brand-1);
+    /* --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #7AD3EC, #C0ECE1); */
   }
+  /* タイトル部分の背景色をつけるための設定 */
+  .VPHero.VPHomeHero {
+    position: relative;
+    background: none;
+  }
+  .VPHero.VPHomeHero::before {
+    content: "";
+    position: absolute;
+    top: 100px;      /* 上の余白 */
+    width: 94%;
+    margin-left: -2%;
+    bottom: 16px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 16px;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .dark .VPHero.VPHomeHero::before {
+    background: rgba(0,0,0,0.5);
+  }
+  .VPHero.VPHomeHero > * {
+    position: relative;
+    z-index: 1;
+  }
+
+
   /* index.htmlのhero内のtextの色 */
   .VPHero.VPHomeHero .heading {
-    color: var(--vp-c-gray-1);
+    color: var(--vp-c-text-1);
   }
   /* index.htmlのhero内のtaglineについて */
   .VPHero.VPHomeHero .tagline {
     /* テキスト色 */
-    color: var(--vp-c-gray-2);
+    color: var(--vp-c-text-2);
     /* フォントの太さを変更 */
-    /* font-weight: bold; */
+    font-weight: bold;
     /* フォントを変えたい際にはfont-familyで指定 */
   }
 }
@@ -196,7 +253,8 @@
 @media (min-width: 1080px) {
   .dark:root {
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #7AD3EC, #C0ECE1);
+    /* --vp-home-hero-name-background: -webkit-linear-gradient(45deg, #7AD3EC, #C0ECE1); */
+    --vp-home-hero-name-background: var(--vp-c-brand-1);
   }
 }
 
@@ -205,16 +263,36 @@
 .dark .VPHero.VPHomeHero .heading,
 .dark .VPHero.VPHomeHero .tagline {
   color: var(--vp-c-text-1);
+
+  /* color: var(--vp-c-gray-1); */
+  /* 背景色を白にするならここもgrayの方が見やすい */
 }
 
-/* ライトモードの時のfeaturesの背景 */
 .home-hero-background .VPFeature {
+  /* ライトモードの時のfeaturesの背景 */
   background-color: rgba(246, 246, 247, 0.93);
+
+  /* ブロックの境界線を非表示 */
+  border: none;
+
+  /* featuresの本文について */
+  .details {
+    /* フォントの大きさ */
+    /* font-size: 1.1rem; */
+    /* フォントの太さ */
+    font-family: bold;
+    /* 文字色 */
+    color: var(--vp-c-text-1);
+  }
 }
 
 /* ダークモードの時のfeaturesの背景 */
 .dark .home-hero-background .VPFeature {
-  background-color: rgba(27, 27, 31, 0.93);
+  /* background-color: rgba(27, 27, 31, 0.93); */
+  background-color: rgba(81, 81, 93, 0.93); /* これくらいの方が読みやすいかも？ */
+  /* background-color: rgba(246, 246, 247, 0.93); */
+  /* 見出しの色を変えたい時 */
+  /* color: var(--vp-c-gray-1);  */
 }
 
 .VPNavBar.home.top .title,
@@ -226,7 +304,7 @@
   /* ライトモードの上部メニューの色 */
   color: var(--vp-c-gray-2);
   /* fontの太さ */
-  /* font-weight: bold; */
+  font-weight: bold;
 }
 
 /* 横幅が1080px未満の時 */
