@@ -1,0 +1,5 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-light-1: var(--vp-c-indigo-1);
+  --vp-c-brand-dark-1: var(--vp-c-indigo-1);
+}
