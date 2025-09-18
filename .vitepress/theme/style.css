@@ -281,11 +281,10 @@
   flex-wrap: wrap;
   gap: 10px;
   padding: 5%;
+  /* 背景色を設定 */
+  background-color: #F6F8FA;
 }
-/* ダークモードの際は背景色を調整 */
-.dark .sponsor-fixed-banner {
-  background-color: rgba(255,255,255,1.00);
-}
+
 .sponsor-fixed-banner img {
   flex: 1 1 150px; /* 最小幅150px アス比固定 */
   max-width: 250px;
