@@ -22,11 +22,6 @@
  *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
  *   on top of it.
  *
- *   The soft color must be semi transparent alpha channel. This is crucial
- *   because it allows adding multiple "soft" colors on top of each other
- *   to create a accent, such as when having inline code block inside
- *   custom containers.
- *
  * - `default`: The color used purely for subtle indication without any
  *   special meanings attached to it such as bg color for menu hover state.
  *
@@ -290,4 +285,11 @@
   max-width: 250px;
   height: auto;
   object-fit: contain;
+}
+
+/* 共催・後援用 改行について */
+@media (min-width: 769px) {
+  .mobile-only {
+    display: none !important;
+  }
 }
