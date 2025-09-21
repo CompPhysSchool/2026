@@ -274,3 +274,20 @@
 .VPNavBar.home.top.screen-open .VPSocialLinks.VPNavBarSocialLinks.social-links::before {
   color: red;
 }
+
+/* index.mdのスポンサーバナー用 */
+.sponsor-fixed-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 5%;
+  /* 背景色を設定 */
+  background-color: #F6F8FA;
+}
+
+.sponsor-fixed-banner img {
+  flex: 1 1 150px; /* 最小幅150px アス比固定 */
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+}

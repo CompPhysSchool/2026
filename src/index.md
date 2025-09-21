@@ -46,6 +46,15 @@ features:
 
 - [日本物理学会 計算物理領域](https://cp.div.jps.or.jp/)
 
+## 協賛
+
+<div class="sponsor-fixed-banner">
+  <a href="./about-sponsorship">
+    <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中">
+  </a>
+  <img src="./public/images/sponsor/compphys_spring_2026.png" alt="計算物理春の学校2026">
+</div>
+
 ## 世話人
 
 ### 準備・実行
