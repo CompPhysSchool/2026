@@ -49,6 +49,9 @@ features:
 ## 協賛
 
 <div class="sponsor-fixed-banner">
+  <a href="https://winmostar.com/">
+    <img src="./public/images/sponsor/winmostar.png" alt="スポンサー募集中">
+  </a>
   <a href="./about-sponsorship">
     <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中">
   </a>
