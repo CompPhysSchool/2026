@@ -3,6 +3,7 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import "vitepress-markdown-timeline/dist/theme/index.css"
 
 export default {
   extends: DefaultTheme,

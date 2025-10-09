@@ -1,5 +1,6 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
+import { timeline } from 'vitepress-markdown-timeline'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -64,5 +65,11 @@ export default defineConfig({
       ]
     }
   },
+
+  markdown: {
+    config: (md) => {
+      md.use(timeline);
+    }
+  }
 
 })
