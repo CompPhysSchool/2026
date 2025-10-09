@@ -275,8 +275,6 @@
   flex-wrap: wrap;
   gap: 10px;
   padding: 5%;
-  /* 背景色を設定 */
-  background-color: #F6F8FA;
 }
 
 .sponsor-fixed-banner img {
@@ -284,6 +282,11 @@
   max-width: 250px;
   height: auto;
   object-fit: contain;
+}
+
+.dark .sponsor-fixed-banner img {
+  /* ダークモードの時のみ背景色を設定 */
+  background-color: #F6F8FA;
 }
 
 /* 共催・後援用 改行について */
