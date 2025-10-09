@@ -134,7 +134,6 @@
 }
 
 .dark .home-hero-background::before{
-  background-color: rgba(0,0,0,0.2);
   position: absolute;
   top: 0;
   right: 0;
@@ -276,8 +275,6 @@
   flex-wrap: wrap;
   gap: 10px;
   padding: 5%;
-  /* 背景色を設定 */
-  background-color: #F6F8FA;
 }
 
 .sponsor-fixed-banner img {
@@ -285,6 +282,11 @@
   max-width: 250px;
   height: auto;
   object-fit: contain;
+}
+
+.dark .sponsor-fixed-banner img {
+  /* ダークモードの時のみ背景色を設定 */
+  background-color: #F6F8FA;
 }
 
 /* 共催・後援用 改行について */
