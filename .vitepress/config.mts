@@ -1,6 +1,11 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
-import { timeline } from 'vitepress-markdown-timeline'
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+const timelinePkg = require('vitepress-markdown-timeline')
+const timeline = (typeof timelinePkg === 'function')
+  ? timelinePkg
+  : (timelinePkg && (timelinePkg.timeline ?? timelinePkg.default ?? timelinePkg))
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
