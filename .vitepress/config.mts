@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: '参加申し込み', link: '/application' },
+      { text: '参加登録', link: '/application' },
       { text: '時間割', link: '/timetable' },
       { text: '協賛', link: '/about-sponsorship'},
       { text: '過去の様子', items: [
@@ -25,7 +25,7 @@ export default defineConfig({
     ],
     sidebar: [
       { text: 'Home', link: '/' },
-      { text: '参加申し込み', link: '/application' },
+      { text: '参加登録', link: '/registration' },
       { text: '時間割', link: '/timetable' },
       { text: '協賛', items: [
         { text: '協賛のお願い', link: '/about-sponsorship'},

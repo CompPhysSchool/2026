@@ -8,8 +8,8 @@ hero:
   tagline: 会場：沖縄県市町村自治会館<br>期間：2026年3月9日(月)〜13日(金)
   actions:
     - theme: brand
-      text: 参加申し込み
-      link: /application
+      text: 参加登録
+      link: /registration
     - theme: alt
       text: お問い合わせ
       link: https://forms.gle/bgMe27Dwzry9ARBP7
