@@ -279,14 +279,16 @@
 
 .sponsor-fixed-banner img {
   flex: 1 1 150px; /* 最小幅150px アス比固定 */
-  max-width: 250px;
+  max-width: 235px;
   height: auto;
   object-fit: contain;
+  padding: 15px;
+  background-color: #FFFFFF; /* ロゴの背景色を白に設定 */
 }
 
-.dark .sponsor-fixed-banner img {
-  /* ダークモードの時のみ背景色を設定 */
-  background-color: #F6F8FA;
+.sponsor-fixed-banner .pfn-logo {
+  /* https://www.preferred.jp/ja/company/logo/ */
+  padding-right: 30px;
 }
 
 /* 共催・後援用 改行について */

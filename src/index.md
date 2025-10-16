@@ -39,7 +39,10 @@ features:
 
 <div class="sponsor-fixed-banner">
   <a href="https://winmostar.com/">
-    <img src="./public/images/sponsor/winmostar.png" alt="スポンサー募集中">
+    <img src="./public/images/sponsor/winmostar.png" alt="winmostar">
+  </a>
+  <a href="https://www.preferred.jp/">
+    <img src="./public/images/sponsor/PFN_logo.png" alt="preferred network" class="pfn-logo">
   </a>
   <a href="./about-sponsorship">
     <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中">
