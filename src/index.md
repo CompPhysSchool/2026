@@ -42,7 +42,7 @@ features:
     <img src="./public/images/sponsor/winmostar.png" alt="winmostar">
   </a>
   <a href="https://www.preferred.jp/">
-    <img src="./public/images/sponsor/PFN_logo.png" alt="preferred network" class="pfn-logo">
+    <img src="./public/images/sponsor/PFN_logo.png" alt="Preferred Networks" class="pfn-logo">
   </a>
   <a href="./about-sponsorship">
     <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中">
