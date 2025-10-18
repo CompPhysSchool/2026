@@ -57,6 +57,7 @@ features:
 - [科学研究費補助金学術変革領域研究B<br class="mobile-only">「量子古典融合アルゴリズムが拓く計算物質科学」](https://qc-hybrid.github.io/)
 - [科学研究費補助金学術変革領域研究A<br class="mobile-only">「精密数値計算が切り拓く宇宙の量子物質科学」](https://qm-science.org/)
 - [科学研究費補助金学術変革領域研究A<br class="mobile-only">「相関設計で挑む量子創発」](https://cds.phys.s.u-tokyo.ac.jp/)
+- [JST共創の場形成支援プログラム<br class="mobile-only">「サスティナブル量子AI研究拠点」](https://sqai.jp/)
 
 ## 後援
 本スクールは以下の団体からの後援を受けています。
