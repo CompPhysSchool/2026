@@ -30,6 +30,6 @@
 
 ## 参加登録
 
-- 対面・旅費補助ありの方はこちら：~~[旅費補助あり専用フォーム](https://forms.gle/aAY2NtLjEe6EqXSd9 )~~ 調整中
-- 対面・旅費補助なしの方はこちら：~~[旅費補助なし専用フォーム](https://forms.gle/fHdbD1T8syMgAqybA)~~ 調整中
+- 対面・旅費補助ありの方はこちら：[旅費補助あり専用フォーム](https://forms.gle/aAY2NtLjEe6EqXSd9 )
+- 対面・旅費補助なしの方はこちら：[旅費補助なし専用フォーム](https://forms.gle/fHdbD1T8syMgAqybA)
 - オンライン参加の方はこちら：[オンライン専用フォーム](https://forms.gle/5mNvLMY6EiCzFKdU8)
