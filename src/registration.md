@@ -29,7 +29,7 @@
 - 不可抗力による例外は主催者の判断による。
 
 ## 参加登録
-旅費補助ありの方はこちら：[旅費補助あり専用フォーム](https://docs.google.com/forms/d/e/1FAIpQLScBSeI8tTdcrj25uCtGaMcrQcMkWROf4XIh9_Qg95rhqugg6w/viewform?usp=header)
 
-旅費補助なしの方はこちら：[旅費補助なし専用フォーム](https://docs.google.com/forms/d/e/1FAIpQLScurnf8Z42VUr584xOQ4FeJBf-1gr-Ebl8qbI8U5Yn9cpgQJA/viewform?usp=header)
-
+- 対面・旅費補助ありの方はこちら：[旅費補助あり専用フォーム](https://forms.gle/aAY2NtLjEe6EqXSd9 )
+- 対面・旅費補助なしの方はこちら：[旅費補助なし専用フォーム](https://forms.gle/fHdbD1T8syMgAqybA)
+- オンライン参加の方はこちら　　：[オンライン専用フォーム](https://forms.gle/5mNvLMY6EiCzFKdU8)
