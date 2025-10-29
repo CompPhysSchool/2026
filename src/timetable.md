@@ -10,7 +10,7 @@
 
 To Be Announced
 
-## 企業懇親会
+## 企業座談会
 
 To Be Announced
 
