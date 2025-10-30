@@ -286,6 +286,12 @@
   background-color: #FFFFFF; /* ロゴの背景色を白に設定 */
 }
 
+.sponsor-fixed-banner .compphys {
+  /* 他のロゴとサイズを合わせる */
+  width: 235px;
+  height: 70px;
+}
+
 .sponsor-fixed-banner .pfn-logo {
   /* https://www.preferred.jp/ja/company/logo/ */
   padding-right: 30px;

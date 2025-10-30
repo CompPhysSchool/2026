@@ -44,10 +44,13 @@ features:
   <a href="https://www.preferred.jp/">
     <img src="./public/images/sponsor/PFN_logo.png" alt="Preferred Networks" class="pfn-logo">
   </a>
-  <a href="./about-sponsorship">
-    <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中">
+  <a href="https://amplify.fixstars.com/ja/">
+    <img src="./public/images/sponsor/amplify-logo.png" alt="Fixstars Amplify">
   </a>
-  <img src="./public/images/sponsor/compphys_spring_2026.png" alt="計算物理春の学校2026">
+  <a href="./about-sponsorship">
+    <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中" class="compphys">
+  </a>
+  <img src="./public/images/sponsor/compphys_spring_2026.png" alt="計算物理春の学校2026" class="compphys">
 </div>
 
 ## 共催
