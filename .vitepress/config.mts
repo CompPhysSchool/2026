@@ -21,7 +21,7 @@ export default defineConfig({
       `
     ],
     ["link", { rel: "icon", href: "/2026/images/compphys_icon.jpg" }],
-    ["meta", { property: "og:image", content: "/2026/images/compphys_hp_top.png" }],
+    ["meta", { property: "og:image", content: "/2026/images/compphys_hp_top.jpg" }],
     ["meta", { property: "og:site_name", content: "計算物理春の学校2026" }],
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@compphysschool"}]
