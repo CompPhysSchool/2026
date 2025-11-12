@@ -24,7 +24,10 @@ export default defineConfig({
     ["meta", { property: "og:image", content: "/2026/images/compphys_hp_top.jpg" }],
     ["meta", { property: "og:site_name", content: "計算物理春の学校2026" }],
     ["meta", { property: "twitter:card", content: "summary" }],
-    ["meta", { property: "twitter:site", content: "@compphysschool"}]
+    ["meta", { property: "twitter:site", content: "@compphysschool"}],
+    ["meta", { property: "twitter:title", content: "計算物理春の学校2026"}],
+    ["meta", { property: "twitter:description", content: "「計算物理春の学校」では様々な分野の専門家による講義や、参加者同士の交流を通じて計算物理の理論と実践を広く深く学ぶ場を提供します。大学院生や若手研究者を主な対象とし、計算物理に関する基礎から最先端技術、その応用まで幅広いトピックを取り上げます"}],
+    ["meta", { property: "twitter:image", content: "/2026/images/compphys_hp_top.jpg" }]
   ],
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
