@@ -38,19 +38,34 @@ features:
 ## 協賛
 
 <div class="sponsor-fixed-banner">
-  <a href="https://winmostar.com/">
-    <img src="./public/images/sponsor/winmostar.png" alt="winmostar">
-  </a>
-  <a href="https://www.preferred.jp/">
-    <img src="./public/images/sponsor/PFN_logo.png" alt="Preferred Networks" class="pfn-logo">
-  </a>
-  <a href="https://amplify.fixstars.com/ja/">
-    <img src="./public/images/sponsor/amplify-logo.png" alt="Fixstars Amplify">
-  </a>
-  <a href="./about-sponsorship">
-    <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中" class="compphys">
-  </a>
-  <img src="./public/images/sponsor/compphys_spring_2026.png" alt="計算物理春の学校2026" class="compphys">
+  <div class="sponsor-fixed-banner-container">
+    <a href="https://winmostar.com/">
+      <img src="./public/images/sponsor/winmostar.png" alt="winmostar">
+    </a>
+  </div>
+  <div class="sponsor-fixed-banner-container">
+    <a href="https://www.preferred.jp/">
+      <img src="./public/images/sponsor/PFN_logo.png" alt="Preferred Networks" class="pfn-logo">
+    </a>
+  </div>
+  <div class="sponsor-fixed-banner-container">
+    <a href="https://amplify.fixstars.com/ja/">
+      <img src="./public/images/sponsor/amplify_logo.png" alt="Fixstars Amplify">
+    </a>
+  </div>
+  <div class="sponsor-fixed-banner-container">
+    <a href="https://www.tegara.com/?2603cp-banner">
+      <img src="./public/images/sponsor/tegara_logo.png" alt="Tegara">
+    </a>
+  </div>
+  <div class="sponsor-fixed-banner-container">
+    <a href="./about-sponsorship">
+      <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中" class="compphys">
+    </a>
+  </div>
+  <div class="sponsor-fixed-banner-container">
+    <img src="./public/images/sponsor/compphys_spring_2026.png" alt="計算物理春の学校2026" class="compphys">
+  </div>
 </div>
 
 ## 共催
