@@ -25,10 +25,6 @@ To Be Announced
 
 To Be Announced
 
-## 閉会式
-
-To Be Announced
-
 ## 共通講義A
 
 ### A. 計算物理屋のためのGit/GitHub入門
