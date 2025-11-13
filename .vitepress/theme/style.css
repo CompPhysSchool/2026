@@ -277,13 +277,21 @@
   padding: 5%;
 }
 
+.sponsor-fixed-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 235px;
+  height: 70px;
+  background-color: #FFFFFF; /* 背景色を白に設定 */
+}
 .sponsor-fixed-banner img {
   flex: 1 1 150px; /* 最小幅150px アス比固定 */
   max-width: 235px;
+  max-height: 70px;
   height: auto;
   object-fit: contain;
   padding: 15px;
-  background-color: #FFFFFF; /* ロゴの背景色を白に設定 */
 }
 
 .sponsor-fixed-banner .compphys {
