@@ -41,6 +41,7 @@ export default defineConfig({
           { text: '2024年度', link: 'https://compphysspringschool2024.github.io/homepage2024/'},
           { text: '2023年度', link: 'https://hohno0223.github.io/comp_phys_spring_school2023/'}
       ]},
+      { text: 'よくある質問', link: '/faq'},
       { text: 'お問い合わせ', link: 'https://forms.gle/bgMe27Dwzry9ARBP7'},
     ],
     sidebar: [
@@ -55,6 +56,7 @@ export default defineConfig({
           { text: '2024年度', link: 'https://compphysspringschool2024.github.io/homepage2024/'},
           { text: '2023年度', link: 'https://hohno0223.github.io/comp_phys_spring_school2023/'}
       ]},
+      { text: 'よくある質問', link: '/faq'},
       { text: 'お問い合わせ', link: 'https://forms.gle/bgMe27Dwzry9ARBP7'},
     ],
     socialLinks: [
