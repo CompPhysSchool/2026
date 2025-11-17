@@ -311,3 +311,35 @@
     display: none !important;
   }
 }
+
+/* FAQ用 */
+.faq {
+ .faq-item {
+  margin: 5px 10px 5px;
+  padding: 5px;
+ }
+ .faq-container {
+  background-color: #FFFFFF;
+  padding: 10px;
+ }
+ .question {
+  color: #222;
+  font-size: 18px;
+  font-weight: bold;
+ }
+ .answer {
+  color: #444;
+ }
+ .question,
+ .answer {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px; /* アイコンとテキストの間に余白を追加 */
+}
+
+.icon-question,
+.icon-answer {
+  width: 24px; /* アイコンの幅を指定 */
+  height: 24px; /* アイコンの高さを指定 */
+}
+}
