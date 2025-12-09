@@ -337,6 +337,10 @@
   gap: 8px; /* アイコンとテキストの間に余白を追加 */
 }
 
+.icon-answer {
+  padding-left: 2px;
+}
+
 .icon-question,
 .icon-answer {
   width: 24px; /* アイコンの幅を指定 */
