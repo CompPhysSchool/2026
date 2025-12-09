@@ -313,25 +313,34 @@
 }
 
 /* FAQ用 */
-.faq {
- .faq-item {
+.faq-item {
   margin: 5px 10px 5px;
   padding: 5px;
- }
- .faq-container {
-  background-color: #FFFFFF;
+}
+
+.faq-container {
+  /* background-color: #FFFFFF; */
   padding: 10px;
- }
- .question {
+}
+
+.dark .faq-container .question {
+  color: #dfdfd6; /* ダークモードでのテキスト色を白に変更 */
+}
+
+.dark .faq-container .answer {
+  color: #cccccc; /* ダークモードでの回答テキスト色を薄いグレーに */
+}
+
+.question {
   color: #222;
   font-size: 18px;
   font-weight: bold;
- }
- .answer {
+}
+.answer {
   color: #444;
- }
- .question,
- .answer {
+}
+
+.question, .answer {
   display: flex;
   align-items: flex-start;
   gap: 8px; /* アイコンとテキストの間に余白を追加 */
@@ -341,9 +350,7 @@
   padding-left: 2px;
 }
 
-.icon-question,
-.icon-answer {
+.icon-question, .icon-answer {
   width: 24px; /* アイコンの幅を指定 */
   height: 24px; /* アイコンの高さを指定 */
-}
 }
