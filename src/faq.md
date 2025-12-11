@@ -66,6 +66,16 @@
                 <span>まずはご自身の登録内容をご確認ください。登録内容にミスがない場合は、質問フォームからお問い合わせください。</span>
             </div>
         </div>
+        <div class="faq-item">
+            <div class="question">
+                <img src="/images/icon/question-icon.png" alt="Question" class="icon-question">
+                <span>ポスターのQRコードが読めません。</span>
+            </div>
+            <div class="answer">
+                <img src="/images/icon/answer-icon.png" alt="Answer" class="icon-answer">
+                <span>このたびは、ポスターに誤ったQRコードが掲載されており、ご不便をおかけしてしまい誠に申し訳ございません。<br>大変お手数ではございますが、誤って掲載されたQRコードを黒く塗りつぶしていただけますと幸いです。</span>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -91,16 +101,6 @@
             <div class="answer">
                 <img src="/images/icon/answer-icon.png" alt="Answer" class="icon-answer">
                 <span>はい、研究内容の発表だけでなく、レビュー（論文紹介など）での発表も歓迎いたします。</span>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="question">
-                <img src="/images/icon/question-icon.png" alt="Question" class="icon-question">
-                <span>ポスターに誤ったQRコードを掲載してしまいました。</span>
-            </div>
-            <div class="answer">
-                <img src="/images/icon/answer-icon.png" alt="Answer" class="icon-answer">
-                <span>大変お手数ですが、誤ったQRコードを黒く塗り潰すようお願いいたします。</span>
             </div>
         </div>
         <div class="faq-item">
