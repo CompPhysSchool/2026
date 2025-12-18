@@ -59,6 +59,9 @@ features:
     </a>
   </div>
   <div class="sponsor-fixed-banner-container">
+    <img src="./public/images/sponsor/emsco_logo.jpg" alt="emsco">
+  </div>
+  <div class="sponsor-fixed-banner-container">
     <a href="./about-sponsorship">
       <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中" class="compphys">
     </a>
