@@ -59,7 +59,9 @@ features:
     </a>
   </div>
   <div class="sponsor-fixed-banner-container">
-    <img src="./public/images/sponsor/emsco_logo.jpg" alt="emsco">
+    <a href="https://emsco-jp.com/">
+      <img src="./public/images/sponsor/emsco_logo.jpg" alt="emsco">
+    </a>
   </div>
   <div class="sponsor-fixed-banner-container">
     <a href="./about-sponsorship">
