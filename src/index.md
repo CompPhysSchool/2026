@@ -64,6 +64,11 @@ features:
     </a>
   </div>
   <div class="sponsor-fixed-banner-container">
+    <a href="https://comsco.co.jp/">
+      <img src="./public/images/sponsor/comsco_logo.png" alt="comsco systems">
+    </a>
+  </div>
+  <div class="sponsor-fixed-banner-container">
     <a href="./about-sponsorship">
       <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中" class="compphys">
     </a>
