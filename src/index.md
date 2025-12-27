@@ -37,6 +37,16 @@ features:
 
 ## 協賛
 
+### ゴールドスポンサー
+<div class="sponsor-fixed-banner">
+  <div class="sponsor-fixed-banner-container">
+    <a href="https://amplify.fixstars.com/ja/">
+      <img src="./public/images/sponsor/amplify_logo.png" alt="Fixstars Amplify">
+    </a>
+  </div>
+</div>
+
+### スポンサー
 <div class="sponsor-fixed-banner">
   <div class="sponsor-fixed-banner-container">
     <a href="https://winmostar.com/">
@@ -46,11 +56,6 @@ features:
   <div class="sponsor-fixed-banner-container">
     <a href="https://www.preferred.jp/">
       <img src="./public/images/sponsor/PFN_logo.png" alt="Preferred Networks" class="pfn-logo">
-    </a>
-  </div>
-  <div class="sponsor-fixed-banner-container">
-    <a href="https://amplify.fixstars.com/ja/">
-      <img src="./public/images/sponsor/amplify_logo.png" alt="Fixstars Amplify">
     </a>
   </div>
   <div class="sponsor-fixed-banner-container">
