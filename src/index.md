@@ -84,7 +84,7 @@ features:
     </a>
   </div>
   <div class="sponsor-fixed-banner-container">
-    <img src="./public/images/sponsor/compphys_spring_2026.png" alt="計算物理春の学校2026" class="compphys">
+    <img src="./public/images/sponsor/compphys_logo.png" alt="計算物理春の学校2026" class="compphys">
   </div>
 </div>
 
