@@ -79,6 +79,11 @@ features:
     </a>
   </div>
   <div class="sponsor-fixed-banner-container">
+    <a href="https://www.optqc.com/">
+      <img src="./public/images/sponsor/opt_QC_logo.png" alt="OptQC">
+    </a>
+  </div>
+  <div class="sponsor-fixed-banner-container">
     <a href="./about-sponsorship">
       <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中" class="compphys">
     </a>
