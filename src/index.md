@@ -84,14 +84,22 @@ features:
     </a>
   </div>
   <div class="sponsor-fixed-banner-container">
-    <a href="./about-sponsorship">
-      <img src="./public/images/sponsor/sponsor_welcome.png" alt="スポンサー募集中" class="compphys">
-    </a>
-  </div>
-  <div class="sponsor-fixed-banner-container">
     <img src="./public/images/sponsor/compphys_logo.png" alt="計算物理春の学校2026" class="compphys">
   </div>
 </div>
+
+### 個人協賛
+ごまふあざらし 様、
+大野浩史 様、
+匿名、
+川添峻輔 様、
+匿名、
+匿名、
+古家真之介 様、
+ysaito 様、
+匿名、
+水野雄太 様、
+富谷昭夫 様
 
 ## 共催
 本スクールは以下の団体からの補助を受けています。
