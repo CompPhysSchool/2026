@@ -305,6 +305,10 @@
   padding-right: 30px;
 }
 
+.sponsor-fixed-banner .AMD-logo {
+  padding: 0px;
+}
+
 /* 共催・後援用 改行について */
 @media (min-width: 769px) {
   .mobile-only {

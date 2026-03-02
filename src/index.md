@@ -83,6 +83,11 @@ features:
       <img src="./public/images/sponsor/opt_QC_logo.png" alt="OptQC">
     </a>
   </div>
+    <div class="sponsor-fixed-banner-container">
+    <a href="https://www.amd.com/ja/products/accelerators/instinct.html ">
+      <img src="./public/images/sponsor/AMD_banner.jpg" alt="AMD" class="AMD-logo">
+    </a>
+  </div>
   <div class="sponsor-fixed-banner-container">
     <img src="./public/images/sponsor/compphys_logo.png" alt="計算物理春の学校2026" class="compphys">
   </div>
